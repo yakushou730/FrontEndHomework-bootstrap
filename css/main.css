@@ -16,8 +16,55 @@
   background-color: rgb(50,51,52);
 }
 
+/* .menu */
 
-@media (min-width: 800px){
+.menu img {
+  width: 240px;
+  height: auto;
+}
+
+.menu div {
+  font-size: 8px;
+}
+
+.menu .info-pic {
+  width: 40px;
+}
+
+.menu p {
+  color: #8a8b8c;
+}
+
+.menu-info {
+  margin-left: 10px;
+}
+
+.menu-list li {
+  float: left;
+  width:100%;
+  background-color: rgb(251, 196, 61);
+}
+
+.nav-pills>li+li {
+  margin: 0px;
+}
+
+.menu-list a {
+  color: white;
+}
+
+@media (min-width: 991px){
+
+  .menu .container {
+    padding: 15px 5% 0px;
+  }
+
+  /* .menu */
+ .menu-list li {
+  width:120px;
+  background-color: rgb(251, 196, 61);
+}
+
 
 
 }
