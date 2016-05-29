@@ -1,0 +1,23 @@
+/* global */
+
+
+/* #header */
+#header div {
+
+  font-size: 8px;
+  color: #8a8b8c;
+  line-height: 2;
+}
+
+#header .container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  background-color: rgb(50,51,52);
+}
+
+
+@media (min-width: 800px){
+
+
+}
