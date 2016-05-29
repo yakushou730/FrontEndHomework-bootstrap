@@ -1,7 +1,13 @@
 /* global */
 
-
 /* #header */
+/*
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+*/
 #header div {
 
   font-size: 8px;
@@ -53,17 +59,49 @@
   color: white;
 }
 
+/* .big-pic-start */
+.big-pic-start {
+  background-color: black;
+}
+
+.big-pic-start .container {
+  padding: 40px 5%;
+}
+
+.big-pic-start h1 {
+  max-width: 700px;
+}
+
+.big-pic-start hr {
+  border: 1px solid rgb(251, 196, 61);
+  width: 60px;
+  margin-left: 0px;
+}
+
+.big-pic-start div, .big-pic-start h1 {
+  color: white;
+}
+
+.big-pic-start .desc-color {
+  color: #8a8b8c;
+}
+
+.big-pic-start .link-btn {
+  font-size: 8px;
+  background-color: rgb(251, 196, 61);
+}
+
 @media (min-width: 991px){
 
+  /* .menu */
   .menu .container {
     padding: 15px 5% 0px;
   }
 
-  /* .menu */
  .menu-list li {
   width:120px;
   background-color: rgb(251, 196, 61);
-}
+  }
 
 
 
